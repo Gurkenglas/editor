@@ -47,7 +47,6 @@ type MMonad z m = (
     Rooted z,
     RootedAt z ~ Module SrcSpanInfo,
     MonadIO m,
-    MonadPlus m,
     MonadReader Vty m
   )
 
